@@ -1,0 +1,7 @@
+div button {
+    margin-left: 10px;
+}
+
+div button:first-child {
+    margin-left: 0;
+}
