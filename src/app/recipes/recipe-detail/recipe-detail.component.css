@@ -1,0 +1,11 @@
+div h1 {
+    font-weight: bold;
+}
+
+div.recipe-description {
+    margin-top: 20px;
+}
+
+div.recipe-description span {
+    font-weight: bold;
+}

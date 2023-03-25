@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shopping-app';
+  type: string = 'recipe';
+
+  selectedType({type}: {type: string}) {
+    this.type = type;
+  }
 }
